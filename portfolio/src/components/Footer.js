@@ -2,7 +2,7 @@ import React from 'react';
 
 function Footer(props) {
     return (
-      <div>Hello</div>
+      <div>Hello Footer Section</div>
     );
   }
   
