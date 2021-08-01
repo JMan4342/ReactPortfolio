@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail, } from "../../utils/helpers";
+import { validateEmail } from "../../utils/helpers";
 
 // class Contact extends React.Component {
 //   constructor(props) {
@@ -25,18 +25,18 @@ import { validateEmail, } from "../../utils/helpers";
 //     });
 //   }
 
-  // renderConfirmError = (event) => {
+// renderConfirmError = (event) => {
 
-  //   if (event.target.value === "") {
-  //     this.setState({
-  //       nameError: true,
-  //     });
-  //   } else {
-  //     this.setState({
-  //       nameError: false,
-  //     });
-  //   }
-  // }
+// if (event.target.value === "") {
+//   this.setState({
+//     nameError: true,
+//   });
+// } else {
+//   this.setState({
+//     nameError: false,
+//   });
+// }
+// }
 
 //   render() {
 //     return (
@@ -94,7 +94,7 @@ function Form() {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [confirmEmpty, setConfirmEmpty] = useState();
+  const [isBlur, setIsBlur] = useState(false);
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -110,11 +110,20 @@ function Form() {
     } else {
       setMessage(inputValue);
     }
+  };
 
+  const blurHandler = (e) => {
+    const { target } = e;
+    // const inputType = target.name;
+    const inputValue = target.value;
+
+    // Validate entered name
     if (inputValue === "") {
-      setErrorMessage("Field cannot be empty");
-      return;
+      setIsBlur(true);
+      setErrorMessage("Field needs to be filled");
     }
+    return;
+
   };
 
   const handleFormSubmit = (e) => {
@@ -133,7 +142,7 @@ function Form() {
     setName("");
     setEmail("");
     setMessage("");
-    setErrorMessage('');
+    setErrorMessage("");
   };
 
   return (
@@ -144,6 +153,7 @@ function Form() {
           value={name}
           name="name"
           onChange={handleInputChange}
+          onBlur={blurHandler}
           type="text"
           placeholder="name"
         />
@@ -151,6 +161,7 @@ function Form() {
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={blurHandler}
           type="email"
           placeholder="email"
         />
@@ -158,6 +169,7 @@ function Form() {
           value={message}
           name="message"
           onChange={handleInputChange}
+          onBlur={blurHandler}
           type="text"
           placeholder="message"
         />
