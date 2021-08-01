@@ -40,7 +40,7 @@ class Contact extends React.Component {
   render() {
     return (
       <div>
-        <h1>Contact Me</h1>
+        <h2>Contact Me</h2>
         <form onSubmit={this.handleSubmit}>
           <label >
             Name:

@@ -48,6 +48,7 @@ MIT
 I utilized the following sites to assist in creating my React portfolio.
 
 - https://www.kindacode.com/article/react-typescript-handling-onfocus-and-onblur-events/
+- https://www.freecodecamp.org/news/how-to-use-svg-icons-in-react-with-react-icons-and-font-awesome/
 
 
 

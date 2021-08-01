@@ -4,6 +4,7 @@ import profile_pic from "../../assets/images/profile_pic.jpg";
 function AboutMe(props) {
   return (
     <div>
+      <h2>About Me</h2>
       <img src={profile_pic} alt="profile picture" id="profilePic" />
       <p>
         My name is Joseph Manning and am a junior web developer with a
