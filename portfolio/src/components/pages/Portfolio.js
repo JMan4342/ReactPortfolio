@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub } from "react-icons/ai";
+import { SiGithub } from "react-icons/si";
 import HairDress_Site from "../../assets/images/HairDress_Site.jpeg";
 import JavaScript_Quiz1 from "../../assets/images/JavaScript_Quiz1.jpeg";
 import saved_search_results from "../../assets/images/saved_search_results1.jpeg";
@@ -19,7 +19,7 @@ function Portfolio(props) {
         </a>
         <div id="app1">
           <a href="https://github.com/JMan4342/Hair-Dresser" target="_blank">
-            <AiFillGithub />
+            <SiGithub />
           </a>
         </div>
       </div>
@@ -33,7 +33,7 @@ function Portfolio(props) {
             href="https://github.com/JMan4342/Weather-Dashboard"
             target="_blank"
           >
-            <AiFillGithub />
+            <SiGithub />
           </a>
         </div>
       </div>
@@ -44,7 +44,7 @@ function Portfolio(props) {
         </a>
         <div id="app3">
           <a href="https://github.com/JMan4342/Code-Quiz" target="_blank">
-            <AiFillGithub />
+            <SiGithub />
           </a>
         </div>
       </div>
@@ -55,7 +55,7 @@ function Portfolio(props) {
         </a>
         <div id="app3">
           <a href="https://github.com/JMan4342/TechBlog" target="_blank">
-            <AiFillGithub />
+            <SiGithub />
           </a>
         </div>
       </div>
@@ -64,16 +64,3 @@ function Portfolio(props) {
 }
 
 export default Portfolio;
-
-{
-  /* <div>
-      <a href="https://tech-blog0713.herokuapp.com/" target="_blank">
-        <img src={TechBlog}>
-      </a>
-      <div id="app4">
-        <a href="https://github.com/JMan4342/TechBlog" target="_blank">
-          <h3>Technology Blog</h3>
-        </a>
-      </div>
-    </div> */
-}
