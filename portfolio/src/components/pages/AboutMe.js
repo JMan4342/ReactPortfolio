@@ -1,5 +1,6 @@
 import React from "react";
 import profile_pic from "../../assets/images/profile_pic.jpg";
+import "../../styles/aboutMe.css";
 
 const styles = {
   image: {
@@ -10,7 +11,7 @@ const styles = {
 
 function AboutMe(props) {
   return (
-    <div>
+    <div className="aboutMe">
       <div>
         <h2 className="m-3">About Me</h2>
       </div>

@@ -1,0 +1,17 @@
+.contact {
+  background: rgb(165, 165, 165);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.card {
+  background: rgb(238, 225, 207);
+}
+
+label {
+    font-weight: bolder;
+}
+
+.image {
+    padding: 0;
+}

@@ -3,18 +3,9 @@ import "../../styles/resume.css";
 
 function Resume(props) {
   return (
-    <div>
+    <div className="resume">
       <h2 className="m-3">Resume</h2>
       <div className="container justify-content-center">
-        {/* <div className="col" id="resumeLink"> */}
-        <a
-          href="https://drive.google.com/file/d/1bFjdyjCeZouiSrhNvLjoH2hMBxn7EaZN/view?usp=sharing"
-          target="_blank"
-          className="col text-center"
-        >
-          Download My Resume
-        </a>
-        {/* </div> */}
         <div className="container row justify-content-around">
           <div className="col">
             <h3>Frontend</h3>
@@ -48,6 +39,15 @@ function Resume(props) {
             </ul>
           </div>
         </div>
+        {/* <div className="col" id="resumeLink"> */}
+        <a
+          href="https://drive.google.com/file/d/1bFjdyjCeZouiSrhNvLjoH2hMBxn7EaZN/view?usp=sharing"
+          target="_blank"
+          className="col text-center link"
+        >
+          Download My Resume
+        </a>
+        {/* </div> */}
       </div>
     </div>
   );

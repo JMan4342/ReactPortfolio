@@ -1,18 +1,19 @@
 import React from "react";
-import { SiGithub } from "react-icons/si";
+import { SiGithub, SiWhitesource } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
 import { SiStackoverflow } from "react-icons/si";
+import "../styles/footer.css";
 
 const styles = {
   image: {
-    width: "80%",
-    height: "80%",
+    width: "75%",
+    height: "75%",
   },
 };
 
 function Footer(props) {
   return (
-    <div className="">
+    <div className="footer">
       <div className="row align-items-center justify-content-center m-4">
         <div className="col-1">
           <a href="https://github.com/JMan4342" target="_blank">
