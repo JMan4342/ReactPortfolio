@@ -31,11 +31,14 @@ You can find the project at https://github.com/JMan4342/ReactPortfolio.
 
 ## Testing
 
-Below you will find screenshots of the different views of my React portfolio app.
+Below you will find screenshots of the different views of my React portfolio app, and a link to a video demoing it.
 
-![Workout tracker home screen](./public/assets/homePage.jpeg)
-![Exercise entry page](./public/assets/selectExercise.jpeg)
-![Dashboard](./public/assets/dashboard.jpeg)
+![About me page](./src/assets/images/aboutMe.jpeg)
+![Portfolio page](./src/assets/images/portfolio.jpeg)
+![Resume page](./src/assets/images/resume.jpeg)
+![Contact page](./src/assets/images/contact.jpeg)
+
+https://drive.google.com/file/d/1F15JvB4YTL4cjuNUIo0G38hYo31hlYlU/view?usp=sharing
 
 
 ## License
@@ -47,6 +50,7 @@ MIT
 
 I utilized the following sites to assist in creating my React portfolio.
 
+- https://create-react-app.dev/
 - https://www.kindacode.com/article/react-typescript-handling-onfocus-and-onblur-events/
 - https://www.freecodecamp.org/news/how-to-use-svg-icons-in-react-with-react-icons-and-font-awesome/
 
