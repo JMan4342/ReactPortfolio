@@ -17,8 +17,8 @@ function Portfolio(props) {
           >
             <img src={HairDress_Site} className="img-fluid" />
           </a>
-          <div className="container row" id="app1">
-            <h4 className="col">Hairdresser Webpage</h4>
+          <div className="container row justify-content-start" id="app1">
+            <h6 className="col-10">Hairdresser Webpage</h6>
             <a href="https://github.com/JMan4342/Hair-Dresser" target="_blank" className="col">
               <SiGithub />
             </a>
@@ -32,7 +32,7 @@ function Portfolio(props) {
             <img src={saved_search_results} className="img-fluid" />
           </a>
           <div className="container row" id="app2">
-            <h4 className="col">Weather Dashboard</h4>
+            <h6 className="col-10">Weather Dashboard</h6>
             <a
               href="https://github.com/JMan4342/Weather-Dashboard"
               target="_blank" className="col"
@@ -47,7 +47,7 @@ function Portfolio(props) {
             <img src={JavaScript_Quiz1} className="img-fluid" />
           </a>
           <div className="container row" id="app3">
-            <h4 className="col">JavaScript Quiz</h4>
+            <h6 className="col-10">JavaScript Quiz</h6>
             <a href="https://github.com/JMan4342/Code-Quiz" target="_blank" className="col">
               <SiGithub />
             </a>
@@ -58,7 +58,7 @@ function Portfolio(props) {
             <img src={TechBlog} className="img-fluid" />
           </a>
           <div className="container row" id="app4">
-            <h4 className="col">Technology Blog</h4>
+            <h6 className="col-10">Technology Blog</h6>
             <a href="https://github.com/JMan4342/TechBlog" target="_blank" className="col">
               <SiGithub />
             </a>

@@ -58,39 +58,51 @@ function Form() {
 
   return (
     <div>
-      <h2>Contact Me</h2>
-      <form className="form">
-        <input
-          value={name}
-          name="name"
-          onChange={handleInputChange}
-          onBlur={blurHandler}
-          type="text"
-          placeholder="name"
-        />
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          onBlur={blurHandler}
-          type="email"
-          placeholder="email"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          onBlur={blurHandler}
-          type="text"
-          placeholder="message"
-        />
-        <button type="button" onClick={handleFormSubmit}>
+      <h2 className="m-3">Contact Me</h2>
+      <form className="">
+        <div className="form m-3">
+          <label className="">Name:</label>
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            onBlur={blurHandler}
+            type="text"
+            placeholder="name"
+            className="form-control"
+          />
+        </div>
+        <div className="form m-3">
+          <label>Email:</label>
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            onBlur={blurHandler}
+            type="email"
+            placeholder="email"
+            className="form-control"
+          />
+        </div>
+        <div className="form m-3">
+          <label>Message:</label>
+          <input
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            onBlur={blurHandler}
+            type="text"
+            placeholder="message"
+            className="form-control"
+          />
+        </div>
+        <button type="button" onClick={handleFormSubmit} className="m-3">
           Submit
         </button>
       </form>
       {errorMessage && (
-        <div>
-          <p className="error-text">{errorMessage}</p>
+        <div className="mx-3 text-danger">
+          <p className="error-text font-weight-bolder">{errorMessage}</p>
         </div>
       )}
     </div>
