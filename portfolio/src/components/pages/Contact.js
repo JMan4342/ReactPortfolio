@@ -30,12 +30,10 @@ function Form() {
     if (inputType === "name" && inputValue === "") {
       setIsBlur(true);
       setErrorMessage("Name field needs to be filled");
-    }
-    else if (inputType === "email" && inputValue === "") {
+    } else if (inputType === "email" && inputValue === "") {
       setIsBlur(true);
       setErrorMessage("Email field needs to be filled");
-    }
-    else if (inputType === "message" && inputValue === "") {
+    } else if (inputType === "message" && inputValue === "") {
       setIsBlur(true);
       setErrorMessage("Message field needs to be filled");
     } else {
