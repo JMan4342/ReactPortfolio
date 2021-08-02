@@ -4,6 +4,8 @@ import HairDress_Site from "../../assets/images/HairDress_Site2.jpeg";
 import JavaScript_Quiz1 from "../../assets/images/JavaScript_Quiz2.jpeg";
 import saved_search_results from "../../assets/images/WeatherApp2.jpeg";
 import TechBlog from "../../assets/images/TechBlog2.jpeg";
+import NoteTaker from "../../assets/images/NoteTaker2.jpeg";
+import WorkPlanner from "../../assets/images/WorkPlanner2.jpeg";
 import "../../styles/portfolio.css";
 
 const styles = {
@@ -103,6 +105,51 @@ function Portfolio(props) {
             <h6 className="col title">Technology Blog</h6>
             <a
               href="https://github.com/JMan4342/TechBlog"
+              target="_blank"
+              rel="noreferrer"
+              className="col"
+            >
+              <SiGithub style={styles.image} />
+            </a>
+          </div>
+        </div>
+        <div class="w-100"></div>
+        <div className="col card bg-light m-1 pt-2">
+          <a
+            href="https://note-taker0630.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={NoteTaker} alt="Note Taking app" className="img-fluid" />
+          </a>
+          <div className="container row pt-2" id="app4">
+            <h6 className="col title">Note Taking App</h6>
+            <a
+              href="https://github.com/JMan4342/NoteTaker"
+              target="_blank"
+              rel="noreferrer"
+              className="col"
+            >
+              <SiGithub style={styles.image} />
+            </a>
+          </div>
+        </div>
+        <div className="col card bg-light m-1 pt-2">
+          <a
+            href="https://jman4342.github.io/Work-Day-Scheduler/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={WorkPlanner}
+              alt="Workday scheduler site"
+              className="img-fluid"
+            />
+          </a>
+          <div className="container row pt-2" id="app4">
+            <h6 className="col title">Workday Scheduler</h6>
+            <a
+              href="https://github.com/JMan4342/Work-Day-Scheduler"
               target="_blank"
               rel="noreferrer"
               className="col"
