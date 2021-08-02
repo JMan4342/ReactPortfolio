@@ -43,6 +43,7 @@ function Resume(props) {
         <a
           href="https://drive.google.com/file/d/1bFjdyjCeZouiSrhNvLjoH2hMBxn7EaZN/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
           className="col text-center link"
         >
           Download My Resume

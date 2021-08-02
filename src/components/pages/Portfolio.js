@@ -22,13 +22,23 @@ function Portfolio(props) {
           <a
             href="https://jman4342.github.io/Hair-Dresser/Hairdresser.html"
             target="_blank"
+            rel="noreferrer"
           >
-            <img src={HairDress_Site} className="img-fluid" />
+            <img
+              src={HairDress_Site}
+              alt="Hairdresser Site"
+              className="img-fluid"
+            />
           </a>
           <div className="container row pt-2" id="app1">
             <h6 className="col title">Hairdresser Webpage</h6>
-            <a href="https://github.com/JMan4342/Hair-Dresser" target="_blank" className="col">
-              <SiGithub style={styles.image} className="icon"/>
+            <a
+              href="https://github.com/JMan4342/Hair-Dresser"
+              target="_blank"
+              rel="noreferrer"
+              className="col"
+            >
+              <SiGithub style={styles.image} className="icon" />
             </a>
           </div>
         </div>
@@ -36,39 +46,68 @@ function Portfolio(props) {
           <a
             href="https://jman4342.github.io/Weather-Dashboard/"
             target="_blank"
+            rel="noreferrer"
           >
-            <img src={saved_search_results} className="img-fluid" />
+            <img
+              src={saved_search_results}
+              alt="Weather app"
+              className="img-fluid"
+            />
           </a>
           <div className="container row pt-2" id="app2">
             <h6 className="col title">Weather Dashboard</h6>
             <a
               href="https://github.com/JMan4342/Weather-Dashboard"
-              target="_blank" className="col"
+              target="_blank"
+              className="col"
+              rel="noreferrer"
             >
-              <SiGithub style={styles.image}/>
+              <SiGithub style={styles.image} />
             </a>
           </div>
         </div>
         <div class="w-100"></div>
         <div className="col card bg-light m-1 pt-2">
-          <a href="https://jman4342.github.io/Code-Quiz/" target="_blank">
-            <img src={JavaScript_Quiz1} className="img-fluid" />
+          <a
+            href="https://jman4342.github.io/Code-Quiz/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src={JavaScript_Quiz1}
+              alt="Javascript quiz app"
+              className="img-fluid"
+            />
           </a>
           <div className="container row pt-2" id="app3">
             <h6 className="col title">JavaScript Quiz</h6>
-            <a href="https://github.com/JMan4342/Code-Quiz" target="_blank" className="col">
-              <SiGithub style={styles.image}/>
+            <a
+              href="https://github.com/JMan4342/Code-Quiz"
+              target="_blank"
+              rel="noreferrer"
+              className="col"
+            >
+              <SiGithub style={styles.image} />
             </a>
           </div>
         </div>
         <div className="col card bg-light m-1 pt-2">
-          <a href="https://tech-blog0713.herokuapp.com/" target="_blank">
-            <img src={TechBlog} className="img-fluid" />
+          <a
+            href="https://tech-blog0713.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={TechBlog} alt="Tech blog site" className="img-fluid" />
           </a>
           <div className="container row pt-2" id="app4">
             <h6 className="col title">Technology Blog</h6>
-            <a href="https://github.com/JMan4342/TechBlog" target="_blank" className="col">
-              <SiGithub style={styles.image}/>
+            <a
+              href="https://github.com/JMan4342/TechBlog"
+              target="_blank"
+              rel="noreferrer"
+              className="col"
+            >
+              <SiGithub style={styles.image} />
             </a>
           </div>
         </div>

@@ -7,7 +7,7 @@ function Form() {
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [isBlur, setIsBlur] = useState(false);
+  const [setIsBlur] = useState(false);
 
   const handleInputChange = (e) => {
     const { target } = e;

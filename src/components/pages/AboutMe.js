@@ -18,7 +18,7 @@ function AboutMe(props) {
       <div className="container row m-3">
         <img
           src={profile_pic}
-          alt="profile picture"
+          alt="profile"
           id="profilePic"
           className="col img-thumbnail img-responsive"
           style={styles.image}
