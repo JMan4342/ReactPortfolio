@@ -5,7 +5,7 @@
 
 ## Description
 
-
+As a junior web developer, I would like to be able share all the projects that I have worked on while at the same time show those skills employed at the same time.  With my React portfolio, I am able to showcase my previous work through React.  In my portfolio, whoever visits my site will be able to seamlessly navigate from one page to another without reloading their browser. The views will provide a brief introduction of myself, show my previous work, my resume, and even contact me.
 
 
 ## Table of Contents
@@ -19,7 +19,7 @@
 
 ## Usage
 
-
+You can view my React portfolio on the Netlify server at https://dreamy-swanson-c29ee4.netlify.app.
 
 
 ## Contributing
